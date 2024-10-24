@@ -31,7 +31,8 @@ nav .rightPart ul a{
 /* -------------------------------- start nav list ----------------------------------- */
 
 .navList{
-    top: 55px;
+    /* top: 55px; */
+    top: 15%;
     left: -100%;
     padding:10px 15px;
     background-color: #353330;
@@ -48,6 +49,9 @@ nav .rightPart ul a{
     cursor: pointer;
     border-bottom: 1px solid black ;
     /* rgba(255, 255, 255, 0.5) */
+}
+.navList i{
+    cursor: pointer;
 }
 /* -------------------------------- end nav list ----------------------------------- */
 
