@@ -20,8 +20,8 @@
     /* ------------------------------ start header ------------------------------- */
     header{
          height:100vh !important;
-        background-size:cover;
-        background-position: center center
+        background-size:cover !important;
+        background-position: center center !important;
     }
     header .container{
         padding-bottom: 0px !important;
