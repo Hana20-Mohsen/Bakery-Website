@@ -19,7 +19,9 @@
     }
     /* ------------------------------ start header ------------------------------- */
     header{
-        height:fit-content !important;
+         height:100vh !important;
+        background-size:cover;
+        background-position: center center
     }
     header .container{
         padding-bottom: 0px !important;
