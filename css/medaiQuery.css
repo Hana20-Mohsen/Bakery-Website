@@ -4,7 +4,6 @@
     }
    /*---------------------------------- start nav -------------------------------*/
     nav{
-        color:red;
         position: relative;
         padding-top: 25px !important;
     }
@@ -171,6 +170,7 @@
         display: none !important;
       }
     nav{
+        color: red !important;
         position: static;
     }
     .navLogo img{
