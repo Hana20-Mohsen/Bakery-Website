@@ -4,6 +4,7 @@
     }
    /*---------------------------------- start nav -------------------------------*/
     nav{
+        color:red;
         position: relative;
         padding-top: 25px !important;
     }
