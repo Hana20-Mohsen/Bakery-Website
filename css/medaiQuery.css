@@ -140,7 +140,7 @@
     }
 }
   /* --------------------------------------------------------------------------------------------------------------------- */
-   @media screen and (min-width:768px) and (max-width:1023px) {
+   @media screen and (min-width:768px) and (max-width:992px) {
     nav{
         position: relative;
     }
@@ -153,6 +153,32 @@
         position: absolute;
         top: 10px;
         right: 10px;
+    }
+    .aboutPic {
+        display: flex;
+        align-items: center;
+    }
+    .locationImage{
+        display: flex;
+        align-items: center;
+    }
+   }
+
+   /* --------------------------------------------------------------------------------------------------------------------- */
+   @media screen and (min-width:992px) and (max-width:1024px){
+    .hidden-ss {
+        display: none !important;
+      }
+    nav{
+        position: static;
+    }
+    .navLogo img{
+       width: 35% !important;
+       display: block;
+    }
+    .navLogo{
+        justify-content: center !important;
+        position: static;
     }
     .aboutPic {
         display: flex;
